@@ -1,5 +1,6 @@
 body{
     background-color: rgb(6, 6, 34);
+    
 }
 
 h1{
@@ -13,14 +14,14 @@ h2{
     text-align: center;
 }
 
-h3{
+h3, h4{
     color: rgb(240, 235, 235);
     text-align: center;
 }
 
 p{
     color: azure;
-    font-size: 1.2em;
+    font-size: 1.05em;
     font-family: Arial, Helvetica, sans-serif;
 }
 img{
@@ -35,13 +36,63 @@ img{
 }
 #tabela{
     color: white;
-    
-    font-size: 1.2em;
-    padding-right: 10px;    
-    padding-bottom: 10px;   
-    padding-left: 30px;
-}
-.row {
-    flex-direction: column;
 }
 
+#aprendendo{
+    opacity: 0.1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+
+    
+}
+.top-menu-space {
+    width: 100%;
+    height: 60px;
+  }
+
+  .menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(5, 7, 31);
+    z-index: 1;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .menu > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+  }
+  
+  .menu nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .menu nav ul a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    color: rgb(161, 188, 211);
+  }
+  .logo {
+    margin: 0;
+    color: rgb(161, 188, 211);
+    
+
+  }
+  .sobre :hover{
+    background-color: rgb(67, 102, 136);
+    
+  }
